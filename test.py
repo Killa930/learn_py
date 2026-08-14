@@ -34,7 +34,7 @@
 # word = True #Boolean
 
 
-# IF
+# IF;ELIF;ELSE
 
 # if 5 == 5 :
 #     print("Yes it is true")
@@ -50,6 +50,33 @@
 #     else:
 #         print("the number is smaller than 5")
 #     sk += 1
+
+
+# isHappy = str(input("Are you happy? (yes/no): "))
+
+# if isHappy == "yes":
+#     print("I am happy")
+# else:
+#     print("I am not happy")
+
+# user_data = int(input("Enter a number: "))
+
+# isHappy = True
+
+# if isHappy and user_data == 6:
+#     print("I am happy and the number is 6")
+# elif user_data == 5:
+#     print("The number is 5")
+# elif user_data == 7:
+#     print("The number is 7")
+# else:
+#     print("User unhappy")
+
+# TERNARY OPERATOR
+
+
+
+
 
 
 
