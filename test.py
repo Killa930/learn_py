@@ -142,10 +142,58 @@
 #     if input("Enter data:") == "Exit":
 #         isHasCar = False
 
+#LISTS
+
+# nums = [5, 4, 3, 5, 7, 8, 7, True, "Hello", 5.5,[1, 2, 3]]
+
+# nums[0] = 50
+# nums[5] = 11
+
+# print(nums[0])
+# print(nums[5])
+# print(nums[-1][0])
 
 
+# numbers = [5, 2, 3]
+# # numbers[3] =  100
 
+# numbers.append(100)
+# numbers.insert(1, 200)
 
+# b = [1, 2, 3]
+# numbers.extend(b)
+# # numbers.reverse()
+# numbers.sort()
+# numbers.pop(-2)
+# numbers.remove(2)
+
+# # numbers.clear()
+
+# # print(numbers.count(3))
+# print(len(numbers))
+
+# nums = [5, 2, 7, "ello", False]
+
+# for el in nums:
+#     el *= 2
+#     print(el)
+
+n = int(input("Enter length of list: "))
+
+user_list = []
+
+# i = 0
+
+# while i < n:
+#     string = "Enter element #" + str(i + 1) + ": "
+#     user_list.append(input(string))
+#     i += 1
+
+for i in range(n):
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+
+print(user_list, i)
 
 
 
