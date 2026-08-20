@@ -236,8 +236,26 @@
 
 # print(word[1:-1:2])
 
-lis = [6, 7, "Stroka", True, 6.5]
+# lis = [6, 7, "Stroka", True, 6.5]
 
 
-print(lis[2:5:2])
+# print(lis[2:5:2])
+
+#TUPLES
+
+# data = (4, 5, 7, 2, 3,)
+
+# # print(data[1:4])
+
+# # for i in range(len(data)):
+# #     print(data[i])
+
+# for el in data:
+#     print(el)
+
+# nums = [5, 7, 8]
+
+# new_data = tuple(nums)
+# word = "Hello world"
+# print(tuple(word))
 
