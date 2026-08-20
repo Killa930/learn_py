@@ -259,3 +259,34 @@
 # word = "Hello world"
 # print(tuple(word))
 
+#DICTIONARIES
+
+# country = {"code": "LV", "name": "Latvia", "population": 1900000, "capital": "Riga"}
+
+# # print(country["name"] + ", " + country["code"])
+
+# # country = dict(code="LV", name="Latvia", population=1900000, capital="Riga")
+
+# # for key, value in country.items():
+# #     print(key, "-", value)
+
+# # print(country.get("name"))
+
+# print(country.values())
+
+person = {
+    'user_1': {
+        'first_name': 'John',
+        'last_name': 'Doe',
+        'age': 30,
+        'address': ["New York", " 1 st Avenue", " 10001"],
+        'grades': {
+            'math': 90,
+            'science': 85
+        }
+    }
+}
+
+print(person['user_1']['address'][0])
+
+
