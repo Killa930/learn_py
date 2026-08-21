@@ -290,3 +290,24 @@
 # print(person['user_1']['address'][0])
 
 
+#FROZENSET, SET
+
+# data = set('hello')
+
+data = {5, 7, 9, 9}
+
+data.add(10)
+data.update(['10', True, 7, 9])
+data.remove(True)
+data.pop()
+
+
+nums = [5, 7, 3, 5, 5]
+nums = set(nums)
+
+
+new_data = frozenset(['10', True, 7, 9, 10, 9])
+
+
+print(new_data)
+
